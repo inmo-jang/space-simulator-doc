@@ -3,12 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-spade-simulator documentation
+SPADE Simulator Documentation
 =============================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Overview
+--------
+
+**SPADE** (Swarm Planning And Decision Evaluation) Simulator is a pygame-based application for simulating decentralized agent behavior using behavior trees. By integrating your custom decision-making algorithms as plugins, SPADE enables rigorous testing and comparative analysis against pre-existing algorithms.
+
+Github repo: https://github.com/inmo-jang/spade-simulator
 
 
 .. toctree::
