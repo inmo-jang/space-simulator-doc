@@ -37,3 +37,9 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 
 html_favicon = 'assets/logo.jpg'
+
+
+html_static_path = ['_static']
+html_css_files = [
+    'css/custom.css',
+]

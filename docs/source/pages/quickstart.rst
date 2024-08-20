@@ -30,13 +30,13 @@ Install the required dependencies:
 Run the Simulator
 =================
 
-You can run the simulator by executing the following command in the command line. By default, the simulator uses `config.yaml` as the default configuration file.
+You can run the simulator by executing the following command in the command line. By default, the simulator uses ``config.yaml`` as the default configuration file.
 
 .. code-block:: bash
 
    python main.py
 
-If you want to use a specific configuration (e.g., `my_config.yaml`), you can run:
+If you want to use a specific configuration (e.g., ``my_config.yaml``), you can run:
 
 .. code-block:: bash
 

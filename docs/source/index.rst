@@ -7,7 +7,7 @@ SPADE Simulator Documentation
 =============================
 
 
-Welcome to the official documentation for **SPADE** (Swarm Planning And Decision Evaluation) Simulator. 
+Welcome to the official documentation for **SPADE** (Swarm Planning And Decision-making Evaluation) Simulator. 
 This simulator is designed to facilitate research and development in swarm robotics and decentralized decision-making. Below are the key features of the SPADE simulator:
 
 
@@ -17,12 +17,12 @@ Key Features
 
 - **Swarm Robotics Focus**: Optimized for swarm robotics research, supporting large-scale simulations with a lightweight design.
 - **Behavior Trees**: Uses behavior trees to define and manage agent behaviors, allowing for flexible and structured decision-making.   
-- **Local Communication and Awareness**: Agents communicate locally within specified radii and maintain situational awareness based on their situational awareness ranges.
-- **Flexible Configuration**: Easily configurable via YAML files, enabling customization without modifying the simulator’s source code.
+- **Groot2 Integration**: Compatible with `Groot2 <https://www.behaviortree.dev/groot/>`_ for visualizing and editing the agents' behavior trees, enhancing ease of use and analysis.
+- **Flexible Configuration**: Easily configurable via a YAML file, enabling customization without modifying the simulator’s source code.
 - **Custom Plugins**: Integrates custom decision-making algorithms as plugins, allowing for tailored testing and experimentation.
-- **Groot2 Integration**: Compatible with Groot2 for visualizing and editing the agents' behavior trees, enhancing ease of use and analysis.
+- **Local Communication and Awareness**: Agents communicate locally within specified radii and maintain situational awareness based on their situational awareness ranges.
 - **Dynamic Task Generation**: Supports the creation of tasks dynamically during the simulation, adapting to evolving scenarios.
-- **Algorithm Comparison**: Facilitates the comparison of different decision-making algorithms within a consistent simulation environment and supports Monte Carlo tests for statistical analysis and rigorous comparative evaluation.
+- **Algorithm Comparison**: Facilitates the comparison of different decision-making algorithms within a consistent simulation environment and supports Monte Carlo tests for statistical analysis.
 
 
 
@@ -70,10 +70,10 @@ For detailed installation instructions, please refer to the :doc:`Installation G
    :caption:  Tutorials
    :hidden:
    
-   pages/tutorial_config
-   pages/tutorial_plugin   
-   pages/tutorial_bt
-   pages/tutorial_monte_carlo
+   pages/tutorials/tutorial_config
+   pages/tutorials/tutorial_plugin   
+   pages/tutorials/tutorial_bt
+   pages/tutorials/tutorial_monte_carlo
 
 
 .. toctree::
@@ -82,8 +82,8 @@ For detailed installation instructions, please refer to the :doc:`Installation G
    :hidden:
 
    pages/configuration   
-   pages/plugin
-   pages/api_reference
+   pages/plugin_index
+   
    
    
       
