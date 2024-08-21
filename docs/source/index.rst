@@ -70,11 +70,12 @@ For detailed installation instructions, please refer to the :doc:`Installation G
    :caption:  Tutorials
    :hidden:
    
-   pages/tutorials/tutorial_basic_use
-   pages/tutorials/tutorial_config
-   pages/tutorials/tutorial_plugin   
-   pages/tutorials/tutorial_bt
-   pages/tutorials/tutorial_monte_carlo
+   pages/tutorials/basic_use
+   pages/tutorials/setting_config/index
+   pages/tutorials/monte_carlo
+   pages/tutorials/custom_plugin
+   pages/tutorials/custom_bt
+
 
 
 .. toctree::

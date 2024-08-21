@@ -1,3 +1,5 @@
+.. _config_guide_tasks:
+
 tasks
 =========
 

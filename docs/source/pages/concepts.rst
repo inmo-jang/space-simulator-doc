@@ -33,7 +33,7 @@ In the default behavior tree, agents start with the `LocalSensingNode` to detect
 A behavior tree for the SPADE simulator can be defined by `Groot2 <https://www.behaviortree.dev/groot>`_, a GUI tool for `BehaviorTree.CPP <https://www.behaviortree.dev/>`_, enabling easy visualization and modification of agent behaviors.
 
 
-Our behavior tree implementation supports control nodes (e.g., `Sequence`, `Fallback`) and action nodes (e.g., `DecisionMakingNode`, `TaskExecutionNode`, `ExplorationNode`, `LocalSensingNode`). Action nodes exchange information via a `blackboard` mechanism. Users can extend functionality by adding custom action nodes and its detailed tutorial is available in :doc:`Adding a Custom Behavior Tree <tutorials/tutorial_bt>`. 
+Our behavior tree implementation supports control nodes (e.g., `Sequence`, `Fallback`) and action nodes (e.g., `DecisionMakingNode`, `TaskExecutionNode`, `ExplorationNode`, `LocalSensingNode`). Action nodes exchange information via a `blackboard` mechanism. Users can extend functionality by adding custom action nodes and its detailed tutorial is available in :ref:`tutorial_custom_bt`. 
 
 ==============
 
@@ -53,11 +53,11 @@ The `Agent` class is fundamental to the simulator, encapsulating essential attri
 Decision-making Plug-in  (``/plugins/..``)
 ----------------------------------------------------
 
-The SPACE simulator allows users to switch decision-making algorithms by simply modifying the ``config.yaml`` file, treating it as a plugin (see :doc:`Setting config.yaml <tutorials/tutorial_config>`). 
+The SPACE simulator allows users to switch decision-making algorithms by simply modifying the ``config.yaml`` file, treating it as a plugin (see :doc:`Setting config.yaml <tutorials/setting_config/changing_plugin>`). 
 
 Currently, some decision-making plugins are implemented such as CBBA and GRAPE (see :doc:`Decision-Making Plugins <plugin_index>`).
 
-Users have the flexibility to implement custom decision-making algorithms as separate Python plugins (see :doc:`Adding a Custom Plugin <tutorials/tutorial_plugin>`).
+Users have the flexibility to implement custom decision-making algorithms as separate Python plugins (see :ref:`tutorial_custom_plugin`).
 
 
 
@@ -82,5 +82,5 @@ Utilities (``/module/utils.py``)
 
 **Testing Modes**: The simulator supports two testing modes: screen rendering and non-rendering. In screen rendering mode, the simulation is visualized using `pygame`, and the visual output can optionally be saved as a GIF. This allows users to review the simulation visually and capture dynamic elements of the simulation process.
 
-**Monte Carlo Experiments**: Users can configure scenarios by specifying parameters such as decision-making plugins, agent settings, and task settings in a ``config.yaml`` file. Multiple configurations can be prepared for different parametric studies. Then, users can also define a set of configurations in a separate YAML file and specify the number of Monte Carlo runs for each scenario. The simulator then automatically executes these tests according to the provided parameters, facilitating Monte Carlo experiments (see :doc:`Conducting Monte Carlo Tests <tutorials/tutorial_monte_carlo>`).
+**Monte Carlo Experiments**: Users can configure scenarios by specifying parameters such as decision-making plugins, agent settings, and task settings in a ``config.yaml`` file. Multiple configurations can be prepared for different parametric studies. Then, users can also define a set of configurations in a separate YAML file and specify the number of Monte Carlo runs for each scenario. The simulator then automatically executes these tests according to the provided parameters, facilitating Monte Carlo experiments (see :ref:`tutorial_monte_carlo`).
 
