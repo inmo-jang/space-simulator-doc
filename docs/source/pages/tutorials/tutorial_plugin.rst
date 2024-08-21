@@ -13,8 +13,8 @@ Plug-in Structure
 blah
 
 
-Example: `LocalSearch`
-======================
+Example: `FirstClaimGreedy`
+===========================
 
 blah
 

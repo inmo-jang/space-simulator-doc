@@ -70,6 +70,7 @@ For detailed installation instructions, please refer to the :doc:`Installation G
    :caption:  Tutorials
    :hidden:
    
+   pages/tutorials/tutorial_basic_use
    pages/tutorials/tutorial_config
    pages/tutorials/tutorial_plugin   
    pages/tutorials/tutorial_bt

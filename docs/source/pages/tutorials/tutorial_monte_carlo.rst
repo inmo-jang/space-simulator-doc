@@ -7,9 +7,14 @@ Conducting Monte Carlo Tests
 
 
 
-TBD
+Monte Carlo Runner (``mc_runner.py``)
 ===========================================
 
 TBD
 
 
+
+Monte Carlo Analyzer (``mc_analyzer.py``)
+===========================================
+
+TBD
