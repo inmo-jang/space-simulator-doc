@@ -228,7 +228,7 @@ Now, let's implement Algorithm 2. This algorithm runs after receiving informatio
 
 The main task of Algorithm 2 is to verify that the agent is the highest bidder for the task it selected. If another agent has a higher bid, the agent gives up the task.
 
-Note that it is important to reset ``messages_received`` after processing to avoid performance degradation:
+.. warning:: Note that it is very important to reset ``messages_received`` after processing to avoid performance degradation:
 
 .. code-block:: python
 
