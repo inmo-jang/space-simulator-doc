@@ -261,7 +261,8 @@ Now, let's run the new decision-making plugin. According to the instructions in 
 
 .. code-block:: yaml
 
-    plugin: plugins.cbaa.cbaa.CBAA
+    decision_making:
+        plugin: plugins.cbaa.cbaa.CBAA
 
 
 You can download the configuration file here: :download:`config.xml <custom_plugin/result/CBAA_a10_t100_2024-08-24_04-55-03.yaml>`.
