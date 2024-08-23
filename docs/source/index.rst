@@ -86,6 +86,7 @@ For detailed installation instructions, please refer to the :doc:`Installation G
 
    pages/configuration   
    pages/plugin_index
+   pages/api_reference
    
    
    
