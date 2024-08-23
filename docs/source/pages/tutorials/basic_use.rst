@@ -108,6 +108,8 @@ Then, you will see a simulation similar to the following.
    :alt: GIF of FirstClaimGreedy Sample Result
 
 
+See the configuration file used for the above simulation: :download:`config_greedy.yaml <result/FirstClaimGreedy_a10_t100_2024-08-20_19-08-36.yaml>`.    
+
 ---------------------------------
 
 Understanding Results

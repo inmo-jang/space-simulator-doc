@@ -166,3 +166,9 @@ This was executed with the following configuration:
         save_timewise_result_csv: True    
         save_agentwise_result_csv: True
         save_config_yaml: True
+
+
+.. note::
+
+   The above example applies GRAPE to the MT-SR scenario. Originally, GRAPE was developed for the ST-MR scenario, and you can refer to :ref:`tutorial_agent_task_numbers`
+

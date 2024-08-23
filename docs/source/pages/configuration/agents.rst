@@ -109,6 +109,7 @@ Parameters
 
   **Description**
     The maximum distance within which each agent can communicate with other agents.
+    Setting ``0`` means the agent can communicate with all other agents.
 
 :situation_awareness_radius:
 
@@ -120,6 +121,8 @@ Parameters
 
   **Description**
     The maximum distance within which each agent is aware of tasks.
+    Setting ``0`` means the agent can perceive all tasks.
+
 
 :random_exploration_duration:
 
@@ -130,7 +133,7 @@ Parameters
   ============== =======
 
   **Description**
-    Specifies the duration (in simulation time) during which agents continuously travel towards a randomly chosen position. This behavior occurs when agents are not assigned any tasks. The agent will maintain this movement towards the random position for the specified duration before being assigned a task by the decision-making plugin.
+    Specifies the duration (in simulation time) during which agents continuously travel towards a randomly chosen position. This behavior occurs when agents are not assigned any tasks, was implemented at ``ExplorationNode``. The agent will maintain this movement towards the random position for the specified duration before being assigned a task by the decision-making plugin.
 
 
 
