@@ -31,3 +31,6 @@ Let's open the currently defined default behavior tree using Groot2. First, down
 
 
 In the default behavior tree (i.e., ``/bt_xml/default_bt.xml``), agents start with the ``LocalSensingNode`` to detect nearby tasks and messages. They then proceed to the ``DecisionMakingNode`` for task assignments, followed by the ``TaskExecutionNode`` to perform the task. If no tasks are detected, the agent executes the ``ExplorationNode`` to move to a random position and search for tasks.
+You can observe this behavior by following the test in :ref:`tutorial_basic_use`.
+
+In this tutorial, we will attempt to modify this behavior tree.
