@@ -207,7 +207,7 @@ These results are saved in time-series CSV and PNG files as follows:
 
 
 
-You can later use the above CSV files for Monte Carlo analysis. For more details, refer to the :doc:`Conducting Monte Carlo Tests <tutorial_monte_carlo>` section.
+You can later use the above CSV files for Monte Carlo analysis. For more details, refer to the :ref:`tutorial_monte_carlo` section.
 
 
 Configuration File

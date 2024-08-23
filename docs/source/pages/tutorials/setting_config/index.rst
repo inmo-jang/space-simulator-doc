@@ -4,7 +4,7 @@
 Setting `config.yaml`
 *******************************
 
-**Prerequisite**: :ref:`Basic Usage <tutorial_basic_use>`
+**Prerequisite**: :ref:`tutorial_basic_use`
 
 
 .. note::

@@ -73,8 +73,9 @@ For detailed installation instructions, please refer to the :doc:`Installation G
    pages/tutorials/basic_use
    pages/tutorials/setting_config/index
    pages/tutorials/monte_carlo
-   pages/tutorials/custom_plugin
    pages/tutorials/custom_bt
+   pages/tutorials/custom_plugin
+
 
 
 

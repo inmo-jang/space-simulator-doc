@@ -17,6 +17,29 @@ Simulator Architecture
 
 The main components of the simulator's code are as follows: **behavior tree**, **agent**, **decision-making plugin**, **task**, and **util**.
 
+An overview of the file tree structure of the simulator, which includes these main components, is as follows:
+
+.. code-block::
+
+        .
+        ├─bt_xml
+        │  └─default_bt.xml 
+        ├─modules
+        │  ├─behavior_tree.py
+        │  ├─agent.py
+        │  ├─task.py
+        │  └─utils.py
+        ├─plugins
+        │  ├─cbba
+        │  ├─grape
+        │  └─...
+        ├─main.py   
+        ├─mc_runner.py        
+        ├─mc_analyzer.py                
+        ├─config.yaml   
+        ├─mc_runner.yaml        
+        └─mc_analyzer.yaml
+
 
 ==============
 
@@ -27,13 +50,13 @@ Behavior Tree (``/module/behavior_tree.py``)
 
 The SPADE simulator, developed using `pygame <https://www.pygame.org/>`_, utilizes behavior trees for agent operations due to their modularity and flexibility. Each agent’s behavior tree is executed from the root during every game loop iteration. The simulation frame rate should be adjusted based on the actual computation times of behavior trees to ensure realistic simulation.
 
-In the default behavior tree, agents start with the `LocalSensingNode` to detect nearby tasks and messages. They then proceed to the `DecisionMakingNode` for task assignments, followed by the `TaskExecutionNode` to perform the task. If no tasks are detected, the agent executes the `ExplorationNode` to move to a random position and search for tasks.
+In the default behavior tree (i.e., ``/bt_xml/default_bt.xml``), agents start with the ``LocalSensingNode`` to detect nearby tasks and messages. They then proceed to the ``DecisionMakingNode`` for task assignments, followed by the ``TaskExecutionNode`` to perform the task. If no tasks are detected, the agent executes the ``ExplorationNode`` to move to a random position and search for tasks.
 
 
 A behavior tree for the SPADE simulator can be defined by `Groot2 <https://www.behaviortree.dev/groot>`_, a GUI tool for `BehaviorTree.CPP <https://www.behaviortree.dev/>`_, enabling easy visualization and modification of agent behaviors.
 
 
-Our behavior tree implementation supports control nodes (e.g., `Sequence`, `Fallback`) and action nodes (e.g., `DecisionMakingNode`, `TaskExecutionNode`, `ExplorationNode`, `LocalSensingNode`). Action nodes exchange information via a `blackboard` mechanism. Users can extend functionality by adding custom action nodes and its detailed tutorial is available in :ref:`tutorial_custom_bt`. 
+Our behavior tree implementation supports control nodes (e.g., ``Sequence``, ``Fallback``) and action nodes (e.g., ``DecisionMakingNode``, ``TaskExecutionNode``, ``ExplorationNode``, ``LocalSensingNode``). Action nodes exchange information via a `blackboard` mechanism. Users can extend functionality by adding custom action nodes and its detailed tutorial is available in :ref:`tutorial_custom_bt`. 
 
 ==============
 
@@ -45,7 +68,7 @@ The `Agent` class is fundamental to the simulator, encapsulating essential attri
 
 **Local Communication Capabilities**: Agents are equipped with features for local communication and perception. The communication range defines how far an agent can interact with its neighbors, while the situational awareness range determines how far the agent can detect nearby tasks. 
 
-**Movement and Task Execution**: Agents are modeled as point masses that move directly toward their assigned tasks. Task execution is handled through the `TaskExecutingNode` in the behavior tree. 
+**Movement and Task Execution**: Agents are modeled as point masses that move directly toward their assigned tasks. Task execution is handled through the ``TaskExecutingNode`` in the behavior tree. 
 
 
 ==============
