@@ -5,13 +5,13 @@ Getting Started
 
 
 
-The SPADE simulator is designed specifically for swarm simulations, with an emphasis on being as lightweight as possible. Consequently, it has been developed to have no dependencies beyond Python itself. You only need to install a few Python packages to use the simulator. This approach also ensures that the simulator is OS-independent. 
+The SPACE simulator is designed specifically for swarm simulations, with an emphasis on being as lightweight as possible. Consequently, it has been developed to have no dependencies beyond Python itself. You only need to install a few Python packages to use the simulator. This approach also ensures that the simulator is OS-independent. 
 
 
 Installation
 =============
 
-Follow these steps to install the SPADE simulator.
+Follow these steps to install the SPACE simulator.
 
 Clone the repository:
 

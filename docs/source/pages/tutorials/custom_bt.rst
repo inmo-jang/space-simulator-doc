@@ -29,7 +29,7 @@ Let's open the currently defined default behavior tree using Groot2. First, down
 
 .. note::
 
-   Groot2 was originally created for ``BehaviorTree.CPP``, but in the SPADE simulator, only the visualization functionality of the Behavior Tree is used. Therefore, the other features do not work.
+   Groot2 was originally created for ``BehaviorTree.CPP``, but in the SPACE simulator, only the visualization functionality of the Behavior Tree is used. Therefore, the other features do not work.
 
 
 In the default behavior tree (i.e., ``/bt_xml/default_bt.xml``), agents start with the ``LocalSensingNode`` to detect nearby tasks and messages. They then proceed to the ``DecisionMakingNode`` for task assignments, followed by the ``TaskExecutionNode`` to perform the task. If no tasks are detected, the agent executes the ``ExplorationNode`` to move to a random position and search for tasks.

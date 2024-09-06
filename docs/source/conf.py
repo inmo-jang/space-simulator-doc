@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'spade-simulator'
+project = 'space-simulator'
 copyright = '2024, Inmo Jang'
 author = 'Inmo Jang'
 release = '0.0.1'

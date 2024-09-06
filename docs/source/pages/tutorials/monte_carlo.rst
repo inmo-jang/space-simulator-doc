@@ -127,7 +127,7 @@ Monte Carlo Analyzer
 
 
 In this section, we will perform statistical analysis using the CSV results obtained above. 
-As explained in :ref:`tutorial_basic_use`, the results include agent-wise and time-wise data, specifically focusing on distance moved and task amount completed. In the current version of the SPADE simulator, three types of analysis are provided: these two metrics and mission completion time.
+As explained in :ref:`tutorial_basic_use`, the results include agent-wise and time-wise data, specifically focusing on distance moved and task amount completed. In the current version of the SPACE simulator, three types of analysis are provided: these two metrics and mission completion time.
 
 To proceed, configure the analysis as follows in ``mc_analyzer_tutorial.yaml``:  :download:`mc_analyzer_tutorial.yaml <result/MonteCarlo/mc_analyzer_tutorial.yaml>`.
 

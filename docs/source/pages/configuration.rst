@@ -4,7 +4,7 @@
 Configuration Guide
 **********************
 
-This manual provides detailed descriptions of each parameter in the ``config.yaml`` file used by the SPADE Simulator. Understanding these parameters will help you customize the simulation according to your requirements.
+This manual provides detailed descriptions of each parameter in the ``config.yaml`` file used by the SPACE Simulator. Understanding these parameters will help you customize the simulation according to your requirements.
 
 
 .. toctree::

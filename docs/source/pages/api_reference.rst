@@ -11,7 +11,7 @@ API Reference
 Agent (``agent.py``)
 ===========================================
 
-The ``Agent`` class, defined in ``modules/agent.py``, encapsulates the core attributes and methods relevant to each agent within the SPADE simulator.
+The ``Agent`` class, defined in ``modules/agent.py``, encapsulates the core attributes and methods relevant to each agent within the SPACE simulator.
 
 Attributes
 ------------------------

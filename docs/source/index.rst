@@ -1,14 +1,14 @@
-.. spade-simulator documentation master file, created by
+.. space-simulator documentation master file, created by
    sphinx-quickstart on Sun Jul 21 23:26:20 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-SPADE Simulator Documentation
+SPACE Simulator Documentation
 =============================
 
 
-Welcome to the official documentation for **SPADE** (Swarm Planning And Decision-making Evaluation) Simulator. 
-This simulator is designed to facilitate research and development in swarm robotics and decentralized decision-making. Below are the key features of the SPADE simulator:
+Welcome to the official documentation for **SPACE** (Swarm Planning And Control Evaluation) Simulator. 
+This simulator is designed to facilitate research and development in swarm robotics and decentralized decision-making. Below are the key features of the SPACE simulator:
 
 
 Key Features
