@@ -48,6 +48,13 @@ For detailed installation instructions, please refer to the :doc:`Installation G
          **Figure 2:** GRAPE with 500 agents and 10 tasks.
 
 
+Citations
+------------
+
+Please cite this work in your papers!
+
+- `Inmo Jang, "SPACE: A Python-based Simulator for Evaluating Decentralized Multi-Robot Task Allocation Algorithms", arXiv:2409.04230 [cs.RO], 2024 <https://arxiv.org/abs/2409.04230>`_
+
 
 
 .. toctree::
