@@ -17,8 +17,8 @@ Clone the repository:
 
 .. code-block:: bash
 
-   git clone https://github.com/inmo-jang/spade-simulator.git
-   cd spade-simulator
+   git clone https://github.com/inmo-jang/space-simulator.git
+   cd space-simulator
 
 Install the required dependencies:
 
